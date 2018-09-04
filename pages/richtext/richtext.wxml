@@ -1,0 +1,8 @@
+<!--pages/richtext/richtext.wxml-->
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+
+<progress percent="25" show-info />
+<progress percent="40" stroke-width="12" show-info />
+<progress percent="60" color="#09c" show-info />
+<progress percent="100" active  show-info/>

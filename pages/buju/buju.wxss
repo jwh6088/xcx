@@ -1,0 +1,33 @@
+/* pages/buju/buju.wxss */
+.container{
+  padding: 0;
+}
+.header{
+  display: flex;
+  height: 80rpx;
+  width: 100%;
+}
+.header .topNav{
+  width: 650rpx;
+  height: 100%;
+}
+.header .add{
+  width: 100rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 80rpx;
+  font-family: 楷体;
+  text-align: center;
+}
+.header .topNav scroll-view{
+  height: 80rpx;
+  line-height: 80rpx;
+  white-space: nowrap;
+  background: #ffe;
+}
+.header .topNav scroll-view text{
+  padding: 0 15rpx;
+}
+.play image{
+  width: 100%;
+}

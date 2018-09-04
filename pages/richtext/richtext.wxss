@@ -1,0 +1,7 @@
+/* pages/richtext/richtext.wxss */
+.div_class{
+  background: #3c9;
+}
+.span_class{
+  color: #09c;
+}

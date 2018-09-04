@@ -1,0 +1,28 @@
+<!--pages/test/test.wxml-->
+<view class='box'>
+  <view>{{message}}</view>
+  <view>{{mydatas}}</view> 
+  <view>{{mydatas[0]}}</view> 
+</view>
+
+<view class='box' wx:for="{{mydatas}}" wx:key="abc">
+  <view>{{item}}</view>
+</view>
+
+<view class='box'>
+  <view wx:for="{{users}}" wx:key="123">
+    <block>{{item.name}}</block> -
+    <block>{{item.age}}</block> -
+    <!-- <block>{{item.sex?'男':'女'}}</block> 三元运算    -->
+
+    <!-- <block wx:if="{{item.sex}}">男</block>
+    <block wx:else>女</block> 条件渲染-->
+    
+  </view>
+</view>
+<view class='box'>
+  <icon type='success' size='80'></icon>
+</view>
+<view class='box'>
+  <text decode>{{message}}</text>
+</view>

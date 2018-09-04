@@ -1,0 +1,13 @@
+@import "/wxParse/wxParse.wxss";
+.title{
+  text-align: center;
+  line-height: 100rpx;
+  color: green;
+  font-family: '微软雅黑';
+  font-size: 50rpx;
+}
+.content{
+  padding: 10rpx;
+  color:blue;
+  font-size: 32rpx;
+}

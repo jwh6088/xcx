@@ -1,0 +1,23 @@
+{
+  "pages":[
+    "pages/shouye/shouye",
+    "pages/articles/articles",
+    "pages/request/request",
+    "pages/richtext/richtext",
+    "pages/buju/buju",
+    "pages/camera/camera",
+    "pages/audio/audio",
+    "pages/event/event",
+    "pages/map/map",
+    "pages/rpx/rpx",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#111",
+    "navigationBarTitleText": "vue 中文社区",
+    "navigationBarTextStyle":"#fff"
+  }
+}

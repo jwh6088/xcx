@@ -1,0 +1,7 @@
+<!--pages/shouye/shouye.wxml-->
+<view class='toplist'>
+    <view class='topics' wx:for="{{items}}" wx:key="items">
+        <image src='{{item.author.avatar_url}}'></image>
+        <navigator url="/pages/articles/articles?id={{item.id}}">{{item.title}}</navigator>
+    </view>
+</view>

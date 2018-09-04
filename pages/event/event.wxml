@@ -1,0 +1,5 @@
+<!--pages/event/event.wxml-->
+<view class="container log-list">
+  <view>{{message}}</view>
+  <button bindtap="test">按钮</button>
+</view>

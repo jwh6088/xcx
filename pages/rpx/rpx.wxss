@@ -1,0 +1,6 @@
+/* pages/rpx/rpx.wxss */
+.box{
+  width: 500rpx;
+  height: 200rpx;
+  background: #333;
+}
